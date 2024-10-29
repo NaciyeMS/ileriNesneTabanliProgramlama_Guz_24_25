@@ -1,5 +1,7 @@
 package hafta2_PassByValue_Classes_Constructors;
 
+import hafta3_.AccessModifiers1;
+
 public class EvRunner {
 
 	public static void main(String[] args) {
@@ -7,6 +9,7 @@ public class EvRunner {
 		k1.hangiYoneAcilir();
 		Kapi k2=new Kapi(3, 7, "kahverengi", "sol");
 				k2.hangiYoneAcilir();
+				
 
 	}
 

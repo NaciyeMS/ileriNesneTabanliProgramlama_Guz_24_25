@@ -2,7 +2,7 @@ package hafta2_PassByValue_Classes_Constructors;
 
 public class PassByValue2 {
 	public static void main(String[] args) {
-		int [] dizi= {2,6,8,6,2};
+		int [] dizi= {2,6,8,6,2};//non primitive ilkel olmayan 
 		degistir(dizi);
 		System.out.println(dizi[0]);
 	}
@@ -10,4 +10,5 @@ public class PassByValue2 {
 		gelendizi[0]=315;
 		
 	}
+	//nonprimitive : String dizi object
 }
