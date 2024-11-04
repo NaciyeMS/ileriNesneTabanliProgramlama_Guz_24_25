@@ -1,4 +1,4 @@
-package hafta4;
+package hafta4_Inheritance_InstanceBlok_StaticBlok;
 
 public class Dog extends Mammal {
 	public void bark(){

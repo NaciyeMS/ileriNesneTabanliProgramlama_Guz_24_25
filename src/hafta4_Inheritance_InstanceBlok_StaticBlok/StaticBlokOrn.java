@@ -1,7 +1,5 @@
-package hafta4;
-
+package hafta4_Inheritance_InstanceBlok_StaticBlok;
 import java.time.LocalDate;
-
 public class StaticBlokOrn {
 	static int price;
     static{
