@@ -1,4 +1,4 @@
-package hafta3_;
+package hafta3_AccesModifier_PassByValue_Static_ToString;
 
 public class AccessModifiers1 {
 	public String publicDegisken="Kütüphane gibi";

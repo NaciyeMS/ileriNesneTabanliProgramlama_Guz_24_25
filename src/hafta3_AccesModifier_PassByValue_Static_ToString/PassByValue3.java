@@ -1,22 +1,24 @@
-package hafta3_;
+package hafta3_AccesModifier_PassByValue_Static_ToString;
 
 public class PassByValue3 {
 
-	public static void main(String[] args) {
-		NewClass obj=new NewClass();
-		obj.value=20;
-		degistirNesne(obj);
-		System.out.println(obj.value);
-		degistirReferans(obj);
-		System.out.println(obj.value);
+	 public static void main(String[] args) {
+	        BankaHesabi hesap = new BankaHesabi();
+	        hesap.bakiye = 500;
+	        
+	        guncelleBakiye(hesap);
+	        System.out.println("Güncellenmiş Bakiye: " + hesap.bakiye);
+	        
+	        degistirHesap(hesap);
+	        System.out.println("Referans Değiştirme Sonrası Bakiye: " + hesap.bakiye);
+	    }
+	 private static void guncelleBakiye(BankaHesabi hesap) {
+	        hesap.bakiye = 1000;  // Mevcut hesap nesnesinin bakiyesini güncelliyoruz
+	    }
 
-	}
-	private static void degistirNesne(NewClass obj) {
-		obj.value=30;		
-	}
-	private static void degistirReferans(NewClass obj) {
-		obj=new NewClass();
-		obj.value=50;
-	}
+	    private static void degistirHesap(BankaHesabi hesap) {
+	        hesap = new BankaHesabi(); // Yeni bir hesap nesnesi oluşturuyoruz
+	        hesap.bakiye = 2000;  // Yeni hesap nesnesine bakiye atanıyor
+	    }
 
 }

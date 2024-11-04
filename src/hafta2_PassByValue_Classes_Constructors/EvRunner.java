@@ -1,6 +1,6 @@
 package hafta2_PassByValue_Classes_Constructors;
 
-import hafta3_.AccessModifiers1;
+import hafta3_AccesModifier_PassByValue_Static_ToString.AccessModifiers1;
 
 public class EvRunner {
 

@@ -1,12 +1,12 @@
-package hafta3_;
+package hafta3_AccesModifier_PassByValue_Static_ToString;
 
 public class StaticClass {
 	public static int dolap=12;
 	public int tencere=5;
 	 public static void staticMethod(){
-	        System.out.println("Ben static bir methodum");
+	        System.out.println("static");
 	    }
 	 public void nonStaticMethod(){
-	        System.out.println("Ben non-static bir methodum");
+	        System.out.println("non-static");
 	    }
 }

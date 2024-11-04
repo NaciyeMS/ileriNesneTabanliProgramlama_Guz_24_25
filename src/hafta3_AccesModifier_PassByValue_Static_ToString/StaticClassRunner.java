@@ -1,4 +1,4 @@
-package hafta3_;
+package hafta3_AccesModifier_PassByValue_Static_ToString;
 
 public class StaticClassRunner {
 	public static void main(String[] args) {
